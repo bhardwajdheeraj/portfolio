@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Social Sharing Meta Tags -->
+  <title>Dheeraj Bhardwaj | Data Analyst & Data Scientist Portfolio</title>
+  <meta name="description" content="Explore the portfolio of Dheeraj Bhardwaj, a Data Analyst and Data Scientist focused on SQL, Excel, Power BI, Python, data visualization, exploratory data analysis, and machine learning.">
+  <meta name="keywords" content="Dheeraj Bhardwaj, Data Analyst, Data Scientist, Python, SQL, Power BI, Excel, Machine Learning, Data Visualization, Portfolio">
+  <meta name="author" content="Dheeraj Bhardwaj">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Dheeraj Bhardwaj | Data Analyst & Data Scientist">
+  <meta property="og:description" content="Turning Data Into Insights. Building Intelligence From Data. Explore analytics and machine learning projects by Dheeraj Bhardwaj.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. HEADER & NAVIGATION BAR
+       ========================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Logo & Brand Name -->
+      <a href="#home" class="nav-logo" aria-label="Dheeraj Bhardwaj Portfolio Home">
+        <div class="logo-badge">DB</div>
+        <div class="logo-text">Dheeraj <span>Bhardwaj</span></div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Navbar Action CTA -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">
+          Contact Me
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         2. HOMEPAGE HERO SECTION
+         ========================================================================== -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <!-- Hero Text -->
+        <div class="hero-content">
+          <div class="hero-tagline">
+            DATA ANALYTICS • DATA SCIENCE • MACHINE LEARNING
+          </div>
+
+          <h1>Hi, I'm Dheeraj Bhardwaj.</h1>
+          <div class="hero-role">Data Analyst & Data Scientist</div>
+
+          <div class="hero-value-prop">
+            Turning Data Into Insights. Building Intelligence From Data.
+          </div>
+
+          <p class="hero-subtitle">
+            I work with data to uncover meaningful patterns, build insightful dashboards, and develop machine learning solutions that support better decisions.
+          </p>
+
+          <!-- Primary CTA Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              Explore My Projects
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Get In Touch
+            </a>
+          </div>
+
+          <!-- Professional Skills Summary Row -->
+          <div class="skills-pills-row">
+            <span class="skills-pills-label">Toolkit Summary:</span>
+            <span class="pill-tag">Python</span>
+            <span class="pill-tag">SQL</span>
+            <span class="pill-tag">Excel</span>
+            <span class="pill-tag">Power BI</span>
+            <span class="pill-tag">DAX</span>
+            <span class="pill-tag">Machine Learning</span>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Analytics & Data Science Metric Preview -->
+        <div class="hero-visual">
+          <div class="hero-card">
+            <div class="hero-card-header">
+              <div class="window-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="card-title-tag">model_evaluation.py</div>
+            </div>
+
+            <!-- ML Metric Summary Box -->
+            <div class="hero-ml-metrics">
+              <div class="ml-metric-box">
+                <label>Model Accuracy</label>
+                <div class="val">92.4%</div>
+                <div class="subtext">✓ Random Forest</div>
+              </div>
+              <div class="ml-metric-box">
+                <label>ROC-AUC Score</label>
+                <div class="val">0.89</div>
+                <div class="subtext">↑ Precision 0.88</div>
+              </div>
+            </div>
+
+            <!-- Interactive Chart Graphic -->
+            <div class="hero-chart-graphic">
+              <div class="chart-graphic-header">
+                <span>Revenue & Prediction Trend</span>
+                <span style="color:var(--accent-blue);">Sample Visual</span>
+              </div>
+              <div class="chart-bars-group">
+                <div class="chart-bar-item" style="--height: 55%" title="Train Set"></div>
+                <div class="chart-bar-item" style="--height: 70%" title="Validation"></div>
+                <div class="chart-bar-item" style="--height: 85%" title="Test Accuracy"></div>
+                <div class="chart-bar-item" style="--height: 60%" title="Baseline"></div>
+                <div class="chart-bar-item" style="--height: 95%" title="Ensemble Model"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating Status Badge -->
+          <div class="floating-status-badge">
+            <div class="status-icon">✓</div>
+            <div>
+              <strong style="display:block; font-size:0.875rem; color:var(--text-main);">Available for Projects</strong>
+              <span style="font-size:0.75rem; color:var(--text-light);">Analytics & Data Science Roles</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. ABOUT ME SECTION
+         ========================================================================== -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Profile Card -->
+          <div class="about-avatar-wrapper">
+            <div class="avatar-icon-large">DB</div>
+            <h3>Dheeraj Bhardwaj</h3>
+            <p>Data Analyst & Data Scientist</p>
+            <div style="font-size:0.85rem; color:var(--text-muted); padding:0.4rem 0.8rem; background:var(--bg-primary); border:1px solid var(--border-color); border-radius:var(--radius-full); display:inline-block;">
+              Analytical Mindset • Evidence-Based Results
+            </div>
+          </div>
+
+          <!-- Bio Content -->
+          <div>
+            <div class="section-tag">About Me</div>
+            <h2>Passionate About Data. Focused on Solving Problems.</h2>
+            
+            <p class="about-bio-text">
+              I'm Dheeraj Bhardwaj, a data professional focused on turning raw data into useful insights and practical solutions. My interests span data analytics, business intelligence, exploratory data analysis, and machine learning.
+            </p>
+            <p class="about-bio-text">
+              I enjoy working with datasets, identifying patterns, preparing reliable data, creating informative dashboards, and communicating findings clearly. I aim to combine analytical thinking and technical skills to solve meaningful business and data problems.
+            </p>
+            <p class="about-bio-text" style="margin-bottom:2rem;">
+              My approach begins with understanding the problem, preparing and exploring the data, choosing suitable analytical methods, and presenting the results in a clear, useful format.
+            </p>
+
+            <!-- Technical Highlights -->
+            <div class="about-highlights-grid">
+              <div class="highlight-box">
+                <span class="highlight-icon">✦</span>
+                <div>
+                  <h4>Data Analysis & Interpretation</h4>
+                  <p>Exploring distributions, patterns, and data quality.</p>
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <span class="highlight-icon">✦</span>
+                <div>
+                  <h4>SQL Querying & Reporting</h4>
+                  <p>Aggregations, CTEs, JOINs, and subqueries.</p>
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <span class="highlight-icon">✦</span>
+                <div>
+                  <h4>Excel Analysis & Dashboards</h4>
+                  <p>PivotTables, dynamic formulas, and chart design.</p>
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <span class="highlight-icon">✦</span>
+                <div>
+                  <h4>Power BI & Data Modeling</h4>
+                  <p>DAX measures, Star schema, and KPI reports.</p>
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <span class="highlight-icon">✦</span>
+                <div>
+                  <h4>Python Data Science</h4>
+                  <p>Pandas, NumPy, Matplotlib, and Seaborn.</p>
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <span class="highlight-icon">✦</span>
+                <div>
+                  <h4>Machine Learning Fundamentals</h4>
+                  <p>Classification, Regression, and Model Evaluation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. SKILLS SECTION (4 Categories)
+         ========================================================================== -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Technical Competencies</div>
+          <h2>Skills & Expertise Breakdown</h2>
+          <p>Organized across core data analytics, business intelligence, data science, and machine learning domains.</p>
+        </div>
+
+        <!-- Category A: DATA ANALYTICS -->
+        <div class="skills-category-group">
+          <div class="category-title">
+            <span class="category-icon">📊</span> A. DATA ANALYTICS
+          </div>
+          <div class="skills-tags-grid">
+            <span class="skill-chip">Excel</span>
+            <span class="skill-chip">SQL</span>
+            <span class="skill-chip">Data Cleaning</span>
+            <span class="skill-chip">Data Validation</span>
+            <span class="skill-chip">Exploratory Data Analysis</span>
+            <span class="skill-chip">Business Analysis</span>
+            <span class="skill-chip">KPI Reporting</span>
+            <span class="skill-chip">Statistical Summaries</span>
+            <span class="skill-chip">Data Visualization</span>
+          </div>
+        </div>
+
+        <!-- Category B: BUSINESS INTELLIGENCE -->
+        <div class="skills-category-group">
+          <div class="category-title">
+            <span class="category-icon">📈</span> B. BUSINESS INTELLIGENCE
+          </div>
+          <div class="skills-tags-grid">
+            <span class="skill-chip">Power BI</span>
+            <span class="skill-chip">DAX</span>
+            <span class="skill-chip">Data Modeling</span>
+            <span class="skill-chip">Power Query</span>
+            <span class="skill-chip">Dashboard Development</span>
+            <span class="skill-chip">Reporting Automation</span>
+            <span class="skill-chip">Data Refresh Workflows</span>
+            <span class="skill-chip">Business Performance Reporting</span>
+          </div>
+        </div>
+
+        <!-- Category C: PROGRAMMING AND DATA SCIENCE -->
+        <div class="skills-category-group">
+          <div class="category-title">
+            <span class="category-icon">🐍</span> C. PROGRAMMING AND DATA SCIENCE
+          </div>
+          <div class="skills-tags-grid">
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">Pandas</span>
+            <span class="skill-chip">NumPy</span>
+            <span class="skill-chip">Matplotlib</span>
+            <span class="skill-chip">Seaborn</span>
+            <span class="skill-chip">Jupyter Notebook</span>
+          </div>
+        </div>
+
+        <!-- Category D: MACHINE LEARNING -->
+        <div class="skills-category-group">
+          <div class="category-title">
+            <span class="category-icon">🤖</span> D. MACHINE LEARNING
+          </div>
+          <div class="skills-tags-grid">
+            <span class="skill-chip">Logistic Regression</span>
+            <span class="skill-chip">Decision Trees</span>
+            <span class="skill-chip">Random Forest</span>
+            <span class="skill-chip">Classification</span>
+            <span class="skill-chip">Data Preprocessing</span>
+            <span class="skill-chip">Feature Engineering</span>
+            <span class="skill-chip">Train/Test Splitting</span>
+            <span class="skill-chip">Confusion Matrix</span>
+            <span class="skill-chip">Precision & Recall</span>
+            <span class="skill-chip">F1-Score</span>
+            <span class="skill-chip">ROC-AUC</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. PROJECT SHOWCASE (6 Demonstration Projects + Category Filtering)
+         ========================================================================== -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Portfolio Showcase</div>
+          <h2>Featured Projects</h2>
+          <p>Practical analytics and data science projects demonstrating my approach to solving data problems.</p>
+        </div>
+
+        <!-- Filter Category Tabs -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="analytics">Data Analytics</button>
+          <button class="filter-btn" data-filter="excel">Excel</button>
+          <button class="filter-btn" data-filter="sql">SQL</button>
+          <button class="filter-btn" data-filter="powerbi">Power BI</button>
+          <button class="filter-btn" data-filter="datascience">Data Science</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: Excel Sales Performance Dashboard -->
+          <article class="project-card" data-category="analytics excel">
+            <div class="project-image-wrapper" onclick="openProjectModal('project-1')">
+              <img src="assets/images/excel-dashboard.png" alt="Excel Sales Performance Dashboard" class="project-image" loading="lazy">
+              <span class="project-badge">Excel • Demonstration Project</span>
+              <div class="project-overlay">
+                <span class="btn-preview">View Details</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>1. Excel Sales Performance Dashboard</h3>
+              <p class="project-desc">
+                An interactive sales reporting project that organizes revenue, product performance, and regional sales trends into a clear dashboard.
+              </p>
+              <div class="tools-used">
+                <span class="tool-tag">Excel</span>
+                <span class="tool-tag">PivotTables</span>
+                <span class="tool-tag">Formulas</span>
+                <span class="tool-tag">Charts</span>
+                <span class="tool-tag">KPI Reporting</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-secondary btn-sm" onclick="openProjectModal('project-1')">View Details</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: SQL Business Sales Analysis -->
+          <article class="project-card" data-category="analytics sql">
+            <div class="project-image-wrapper" onclick="openProjectModal('project-2')">
+              <img src="assets/images/sql-analysis.png" alt="SQL Business Sales Analysis" class="project-image" loading="lazy">
+              <span class="project-badge">SQL • Demonstration Project</span>
+              <div class="project-overlay">
+                <span class="btn-preview">View Details</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>2. SQL Business Sales Analysis</h3>
+              <p class="project-desc">
+                A structured SQL analysis project exploring sales performance, customer behavior, product performance, and business trends.
+              </p>
+              <div class="tools-used">
+                <span class="tool-tag">SQL</span>
+                <span class="tool-tag">JOINs</span>
+                <span class="tool-tag">Aggregations</span>
+                <span class="tool-tag">CTEs</span>
+                <span class="tool-tag">Window Functions</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-secondary btn-sm" onclick="openProjectModal('project-2')">View Details</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Power BI Executive Dashboard -->
+          <article class="project-card" data-category="analytics powerbi">
+            <div class="project-image-wrapper" onclick="openProjectModal('project-3')">
+              <img src="assets/images/powerbi-dashboard.png" alt="Power BI Executive Dashboard" class="project-image" loading="lazy">
+              <span class="project-badge">Power BI • Demonstration Project</span>
+              <div class="project-overlay">
+                <span class="btn-preview">View Details</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>3. Power BI Executive Dashboard</h3>
+              <p class="project-desc">
+                An interactive business intelligence dashboard demonstrating KPI monitoring, date filtering, revenue trends, and performance comparisons.
+              </p>
+              <div class="tools-used">
+                <span class="tool-tag">Power BI</span>
+                <span class="tool-tag">DAX</span>
+                <span class="tool-tag">Power Query</span>
+                <span class="tool-tag">Data Modeling</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-secondary btn-sm" onclick="openProjectModal('project-3')">View Details</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: Exploratory Data Analysis (EDA) -->
+          <article class="project-card" data-category="datascience analytics">
+            <div class="project-image-wrapper" onclick="openProjectModal('project-4')">
+              <img src="assets/images/eda-analysis.png" alt="Exploratory Data Analysis" class="project-image" loading="lazy">
+              <span class="project-badge">Python • Data Science Project</span>
+              <div class="project-overlay">
+                <span class="btn-preview">View Details</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>4. Exploratory Data Analysis (EDA)</h3>
+              <p class="project-desc">
+                An exploratory analysis project focused on data quality, distributions, relationships, outliers, and evidence-based findings.
+              </p>
+              <div class="tools-used">
+                <span class="tool-tag">Python</span>
+                <span class="tool-tag">Pandas</span>
+                <span class="tool-tag">NumPy</span>
+                <span class="tool-tag">Matplotlib</span>
+                <span class="tool-tag">Seaborn</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-secondary btn-sm" onclick="openProjectModal('project-4')">View Details</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 5: Customer Churn Prediction -->
+          <article class="project-card" data-category="datascience ml">
+            <div class="project-image-wrapper" onclick="openProjectModal('project-5')">
+              <img src="assets/images/churn-prediction.png" alt="Customer Churn Prediction" class="project-image" loading="lazy">
+              <span class="project-badge">Machine Learning Project</span>
+              <div class="project-overlay">
+                <span class="btn-preview">View Details</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>5. Customer Churn Prediction</h3>
+              <p class="project-desc">
+                A machine learning demonstration that explores customer churn prediction using a documented sample dataset and appropriate evaluation metrics.
+              </p>
+              <div class="tools-used">
+                <span class="tool-tag">Python</span>
+                <span class="tool-tag">Pandas</span>
+                <span class="tool-tag">Scikit-Learn</span>
+                <span class="tool-tag">Logistic Regression</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-secondary btn-sm" onclick="openProjectModal('project-5')">View Details</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 6: Random Forest Classification -->
+          <article class="project-card" data-category="datascience ml">
+            <div class="project-image-wrapper" onclick="openProjectModal('project-6')">
+              <img src="assets/images/random-forest.png" alt="Random Forest Classification" class="project-image" loading="lazy">
+              <span class="project-badge">Machine Learning Project</span>
+              <div class="project-overlay">
+                <span class="btn-preview">View Details</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>6. Random Forest Classification</h3>
+              <p class="project-desc">
+                A classification project investigating model performance, feature preprocessing, and evaluation against a suitable baseline.
+              </p>
+              <div class="tools-used">
+                <span class="tool-tag">Python</span>
+                <span class="tool-tag">Pandas</span>
+                <span class="tool-tag">Scikit-Learn</span>
+                <span class="tool-tag">Random Forest</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-secondary btn-sm" onclick="openProjectModal('project-6')">View Details</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. SERVICES & AREAS OF EXPERTISE SECTION
+         ========================================================================== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Areas of Expertise</div>
+          <h2>Services & Professional Solutions</h2>
+          <p>Analytical and data science solutions for business questions and practical data problems.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-icon">🧹</div>
+            <h3>Excel Data Cleaning & Reporting</h3>
+            <p>Transforming raw or unformatted spreadsheets into clean, structured reports with dynamic formulas and PivotTables.</p>
+            <ul class="service-deliverables">
+              <li>Data deduplication & text splitting</li>
+              <li>Custom lookup formulas (XLOOKUP / VLOOKUP)</li>
+              <li>Automated PivotTable summary views</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary btn-sm" style="margin-top:auto;">Discuss a Project</a>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-icon">🗄️</div>
+            <h3>SQL Data Analysis</h3>
+            <p>Extracting, aggregating, and analyzing database tables using PostgreSQL or MySQL queries to answer targeted questions.</p>
+            <ul class="service-deliverables">
+              <li>Multi-table JOIN aggregation</li>
+              <li>CTE & Subquery structuring</li>
+              <li>Customer cohort & sales trend queries</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary btn-sm" style="margin-top:auto;">Discuss a Project</a>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-icon">📊</div>
+            <h3>Power BI Dashboard Development</h3>
+            <p>Building interactive executive dashboards with custom DAX measures, Star schema modeling, and dynamic visual filters.</p>
+            <ul class="service-deliverables">
+              <li>Star schema data modeling</li>
+              <li>Custom DAX metrics & KPIs</li>
+              <li>Interactive slicer & bookmark design</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary btn-sm" style="margin-top:auto;">Discuss a Project</a>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div class="service-icon">🐍</div>
+            <h3>Exploratory Data Analysis with Python</h3>
+            <p>Using Pandas, NumPy, Matplotlib, and Seaborn to profile datasets, detect outliers, and uncover correlations.</p>
+            <ul class="service-deliverables">
+              <li>Data quality profiling & cleaning</li>
+              <li>Distribution & correlation plots</li>
+              <li>Jupyter notebook documentation</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary btn-sm" style="margin-top:auto;">Discuss a Project</a>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card">
+            <div class="service-icon">🎯</div>
+            <h3>Data Visualization & KPI Reporting</h3>
+            <p>Designing executive visual summaries that translate complex numbers into clear, action-oriented business stories.</p>
+            <ul class="service-deliverables">
+              <li>KPI scorecard design</li>
+              <li>Performance trend tracking</li>
+              <li>Clean executive presentation graphics</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary btn-sm" style="margin-top:auto;">Discuss a Project</a>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="service-card">
+            <div class="service-icon">🤖</div>
+            <h3>Introductory Machine Learning Solutions</h3>
+            <p>Applying binary classification and regression algorithms (Logistic Regression, Random Forest) to sample datasets.</p>
+            <ul class="service-deliverables">
+              <li>Data preprocessing & feature scaling</li>
+              <li>Model training & hyperparameter tuning</li>
+              <li>Evaluation via confusion matrix & ROC-AUC</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary btn-sm" style="margin-top:auto;">Discuss a Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. WORKFLOW SECTION (4-Step Process)
+         ========================================================================== -->
+    <section class="workflow">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Methodology</div>
+          <h2>Analytical Workflow</h2>
+          <p>A disciplined 4-step approach to turning data questions into reliable outcomes.</p>
+        </div>
+
+        <div class="workflow-grid">
+          <!-- Step 1 -->
+          <div class="workflow-card">
+            <div class="workflow-step-num">01</div>
+            <h3>Understand</h3>
+            <p>Clarify the business question, goals, and data requirements before jumping into analysis.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="workflow-card">
+            <div class="workflow-step-num">02</div>
+            <h3>Prepare</h3>
+            <p>Inspect, clean, validate, and organize the dataset to ensure maximum data quality.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="workflow-card">
+            <div class="workflow-step-num">03</div>
+            <h3>Analyze</h3>
+            <p>Apply appropriate analytical methods, create visualizations, or train and evaluate a suitable model.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="workflow-card">
+            <div class="workflow-step-num">04</div>
+            <h3>Communicate</h3>
+            <p>Present the results, document the approach, explain limitations, and suggest practical next steps.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. CONTACT SECTION
+         ========================================================================== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Get In Touch</div>
+          <h2>Let's Connect</h2>
+          <p>Have a data problem, a project idea, or an opportunity to collaborate? I'd be happy to hear from you.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Direct Info -->
+          <div class="contact-info-card">
+            <h3>Direct Contact Details</h3>
+            <p>Feel free to reach out directly via email, or connect across professional platforms.</p>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon-box">✉️</div>
+              <div class="contact-detail-text">
+                <label>Primary Email</label>
+                <a href="mailto:bhardwajdheeraj7388@gmail.com" id="email-link">bhardwajdheeraj7388@gmail.com</a>
+                <div style="margin-top:0.4rem;">
+                  <button type="button" class="btn btn-secondary btn-sm" onclick="copyEmail()">📋 Copy Email</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon-box">🌐</div>
+              <div class="contact-detail-text">
+                <label>Role Availability</label>
+                <p>Data Analytics & Data Science Opportunities</p>
+              </div>
+            </div>
+
+            <!-- Dynamic Social Links (Rendered by JS if URLs configured) -->
+            <div id="social-links-container" class="social-links-group"></div>
+          </div>
+
+          <!-- Inquiry Form -->
+          <div class="contact-form-card">
+            <h3 style="margin-bottom:1.5rem;">Send a Message</h3>
+            
+            <form id="contact-form" onsubmit="handleFormSubmit(event)">
+              <div class="form-group">
+                <label for="client-name">Your Name</label>
+                <input type="text" id="client-name" class="form-control" placeholder="e.g., Alex Smith" required>
+              </div>
+
+              <div class="form-group">
+                <label for="client-email">Your Email Address</label>
+                <input type="email" id="client-email" class="form-control" placeholder="e.g., alex@organization.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="service-needed">Project Category / Topic</label>
+                <select id="service-needed" class="form-control" required>
+                  <option value="" disabled selected>Select a Topic...</option>
+                  <option value="Data Analytics Inquiry">Data Analytics & Reporting</option>
+                  <option value="Excel / SQL Project">Excel & SQL Data Analysis</option>
+                  <option value="Power BI Dashboard">Power BI Dashboard Development</option>
+                  <option value="Python EDA / Data Science">Python EDA / Data Science</option>
+                  <option value="Machine Learning Inquiry">Machine Learning Project</option>
+                  <option value="General Opportunity">Job Opportunity / Collaboration</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="project-details">Message & Details</label>
+                <textarea id="project-details" class="form-control" placeholder="Tell me about your dataset, project idea, or opportunity..." required></textarea>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </button>
+                <span id="form-status-msg" style="font-size:0.85rem; color:var(--accent-blue); font-weight:600;"></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       9. FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">
+            <div class="logo-badge">DB</div>
+            <div class="logo-text" style="color:#fff;">Dheeraj <span>Bhardwaj</span></div>
+          </a>
+          <p>
+            Data Analyst & Data Scientist. Turning raw data into insights, interactive dashboards, and machine learning solutions.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul class="footer-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul class="footer-nav">
+            <li><a href="mailto:bhardwajdheeraj7388@gmail.com">bhardwajdheeraj7388@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Dheeraj Bhardwaj. Portfolio Demonstration Project. All rights reserved.</div>
+        <button class="back-to-top" onclick="scrollToTop()">
+          Back to top ↑
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       10. PROJECT DETAILS MODAL DIALOG
+       ========================================================================== -->
+  <div class="modal-overlay" id="project-modal" onclick="closeModalOnOverlay(event)">
+    <div class="modal-container">
+      <button class="modal-close-btn" onclick="closeProjectModal()" aria-label="Close modal">&times;</button>
+      <div class="modal-body" id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
